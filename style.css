@@ -1,0 +1,146 @@
+/* root variable declaration */
+:root {
+    --dark-green: #1d5053;
+    --light-green: #249ea1;
+    --orange: #fc5901;
+    --grey: #6b7b7c;
+    --lighter-green: #bdded7;
+    /* adjust the duration */
+    --transition: cubic-bezier(0.22, 1, 0.36, 1); 
+}
+
+body{
+    background-color: var(--lighter-green);
+}
+
+.container, .form-text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Css box */
+.box {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: var(--dark-green);
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    font-size: 2.5vw;
+    margin: 10px;
+    padding: 20px 10px 0 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    /*  */
+    transition: transform 0.15s var(--transition), box-shadow 0.2s var(--transition), background-color 0.2s var(--transition);
+}
+
+.box-active {
+    transform: translateY(4px);
+    box-shadow: 0 3px var(--grey);
+}
+
+h1, h3, h4 {
+    color: var(--dark-green);
+    text-align: center;
+    margin: 10px;
+}
+
+.correct {background-color: var(--light-green);}
+.present {background-color: var(--orange);}
+.wrong {background-color: var(--grey);}
+
+/* popup messages */
+/* Modal structure adapted from GreatStack HTML/CSS tutorial  */
+.popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+/* when triggered popup, open is added to classList to override some of the popup */
+.open {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* SVG */
+.wrong-icon {
+    width: 6vw;
+    height: 6vw;
+    fill: white;
+    stroke: #fc3301;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    margin-top: -30px;
+}
+
+.face-icon {
+    width: 7vw;
+    height: 7vw;
+    fill: white;
+    stroke: var(--dark-green);
+    stroke-width: 2px;
+}
+
+.back-button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #fc5901;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.1rem;
+    color: var(--light-green);
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 15px;
+    transition: transform 0.15s var(--transition), box-shadow 0.2s var(--transition), background-color 0.2s var(--transition), color 0.2s var(--transition);
+}
+
+.top {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.win-show {
+    background-color: var(--orange);
+    width: 14vw;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.1vw;
+}

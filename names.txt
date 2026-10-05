@@ -1,0 +1,11 @@
+mania, words, clamp, apple, brave, chair, dream, flame, grape, house, juice, knife, lemon, magic, ocean, piano, queen, river, smile, 
+table, uncle, video, water, zebra, beach, cloud, dance, earth, field, glass, happy, ivory, joker, koala, light, mouse, night, paint, 
+quiet, radio, snake, tiger, unity, voice, world, youth, angel, bread, candy, devil, eagle, fairy, giant, honey, image, jelly, kayak, 
+laser, medal, noble, olive, peach, quick, round, sheep, train, urban, vivid, whale, aroma, block, crisp, drift, event, frost, grain, 
+heart, input, judge, kneel, lucky, motor, novel, orbit, prize, royal, sharp, twist, usual, value, wheat, alarm, bloom, chart, eager, 
+fresh, grand, humor, ideal, jumpy, stone, plant, brick, crown, sword, torch, storm, grass, river, ocean, space, world, earth, field, 
+flame, smoke, cloud, rain, snow, frost, wind, beach, coast, shore, island, coral, shell, pearl, stone, metal, steel, golds, money, 
+coins, trade, store, shop, price, value, worth, cheap, brand, skill, learn, study, class, books, paper, story, novel, poem, music, 
+sound, voice, noise, laugh, smile, happy, angry, tired, sleep, dream, think, speak, write, readi, brain, heart, blood, teeth, mouth, 
+hands, arms, legs, feet, head, hair, face, eyes, nose, ears, shirt, pants, shoes, socks, dress, skirt, watch, phone, mouse, cable, 
+screen, board, chair, desk, clock, glass, plate, spoon, knife, fork, bowl, bread, toast, fruit, pizza, women
