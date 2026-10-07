@@ -4,7 +4,7 @@
 My first project with Javascript, I've had experienced with HTML and CSS but I rarely include Javascript.
 
 ## How to play
-click link https://amirqey.github.io/My-Own-Word-Guesses_Game/
+click link https://amirqey.github.io/Guess-The-Word-Game/
 1. Type a word and submit it
 2. If error popup is shown, it's probably of this 3 cases
     - The word length of your guess doesn't fit with the box length.
