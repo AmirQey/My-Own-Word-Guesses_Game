@@ -1,9 +1,10 @@
 # Guess the Word Game
+<img width="817" height="745" alt="image" src="https://github.com/user-attachments/assets/efffdac9-5a2c-4375-8fe2-640ffbf9ac9a"/>
 
 My first project with Javascript, I've had experienced with HTML and CSS but I rarely include Javascript.
 
 ## How to play
-
+click link https://amirqey.github.io/My-Own-Word-Guesses_Game/
 1. Type a word and submit it
 2. If error popup is shown, it's probably of this 3 cases
     - The word length of your guess doesn't fit with the box length.
